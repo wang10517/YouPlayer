@@ -66,13 +66,15 @@ class _HomePageState extends State<HomePage> {
           this._appBarTitle = new TextField(
             controller: _filter,
             decoration: new InputDecoration(
-              prefixIcon: new Icon(Icons.search),
-              hintText: 'Search...'
+              hintText: 'Search...',
+              hintStyle: Theme.of(context).textTheme.title,
+              contentPadding: EdgeInsets.all(0),
             ),
+            style: Theme.of(context).textTheme.title,
           );
         } else {
           this._searchIcon = new Icon(Icons.search);
-          this._appBarTitle = new Text( 'YouPlayer' );
+          this._appBarTitle = new Text( 'YouPlayer');
           _filter.clear();
         }
       });
