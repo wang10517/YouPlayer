@@ -21,6 +21,11 @@ class _ControllerState extends State<Controller> {
   int _curIndex = 0;
   LinkedHashMap<String, String> categoryId = LinkedHashMap.of(
       {"10": "Music", "27": "Education", "35": "Documentary", "28": "Science"});
+  Map<String, List<Video>> builtIn = {
+    "History": [],
+    "Downloaded": [],
+    "Watch Later": []
+  };
 
   AppBar _buildAppBar(BuildContext context) {
     return new AppBar(
@@ -84,7 +89,9 @@ class _ControllerState extends State<Controller> {
       RecommendationPage(
         categoryId: categoryId,
       ),
-      PersonalPage(),
+      PersonalPage(
+        builtIn: builtIn,
+      ),
       SettingsPage(),
     ];
 

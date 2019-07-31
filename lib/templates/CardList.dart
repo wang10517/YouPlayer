@@ -49,7 +49,7 @@ class _CardListState extends State<CardList> {
       key: Key(curVid.id),
       elevation: 10.0,
       child: Container(
-        decoration: BoxDecoration(borderRadius: BorderRadius.circular(3.0)),
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(5.0)),
         width: 100,
         height: 80,
         margin: EdgeInsets.all(0),
@@ -135,7 +135,8 @@ class _CardListState extends State<CardList> {
         final parsed_vid = jsonResponse['items']
             .map((vid) => Video.fromJSON(vid) as Video)
             .toList()
-            .cast<Video>();
+            .cast<Video>()
+            .sublist(upperLimit);
         if (parsed_vid.isEmpty) {
           if (offsetFromBottom < edge) {
             _scrollController.animateTo(
