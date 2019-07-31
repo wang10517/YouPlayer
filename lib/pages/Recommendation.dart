@@ -1,100 +1,99 @@
+import 'dart:collection';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:intl/intl.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert' as convert;
+import '../credentials/YoutubeAPI.dart' as Keys;
 import '../model/Video.dart';
-import './VideoPlage.dart';
+import '../templates/CardList.dart';
 
-// Fetching the daily recommendation from youtube
-// uncustomized for now
+class RecommendationPage extends StatefulWidget {
+  final LinkedHashMap<String, String> categoryId;
 
-class RecommendationPage extends StatelessWidget {
-  final List<Video> displayVideos;
+  RecommendationPage({Key key, this.categoryId}) : super(key: key);
 
-  const RecommendationPage({Key key, this.displayVideos}) : super(key: key);
+  @override
+  _RecommendationPageState createState() => _RecommendationPageState();
+}
 
-  void _playVideo(BuildContext context, String id) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => VideoPlay(id: id)),
-    );
+class _RecommendationPageState extends State<RecommendationPage> {
+  Map<String, List<Video>> videos = {};
+
+  @override
+  void initState() {
+    super.initState();
+    widget.categoryId.keys.forEach((key) {
+      fetchTrendingVideos(key);
+    });
   }
 
-  Widget _buildVideoTile(BuildContext context, int index) {
-    Video curVid = displayVideos[index];
-    final String videoImage =
-        "http://img.youtube.com/vi/${curVid.id}/mqdefault.jpg";
-    String _printTitle = curVid.title;
-    if (_printTitle.length > 50) {
-      _printTitle = _printTitle.substring(0, 47) + "...";
+  void fetchTrendingVideos(String id) async {
+    final String url =
+        "https://www.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=10&regionCode=US&videoCategoryId=${id}&key=${Keys.ANDROID_PUBLIC}";
+    final response = await http.get(url);
+    if (response.statusCode == 200) {
+      final jsonResponse = convert.jsonDecode(response.body);
+      final parsed_vid = jsonResponse['items']
+          .map((vid) => Video.fromJSON(vid) as Video)
+          .toList()
+          .cast<Video>();
+      setState(() {
+        videos[id] = parsed_vid;
+      });
+    } else {
+      if (!videos.containsKey(id)) {
+        setState(() {
+          videos[id] = [];
+        });
+      }
     }
+  }
 
-    return Card(
-      key: Key(curVid.id),
-      elevation: 10.0,
-      child: Container(
-        width: 100,
-        height: 100,
-        margin: EdgeInsets.all(0),
-        padding: EdgeInsets.only(right: 3.0, top: 0, bottom: 0, left: 0),
-        child: GestureDetector(
-            onTap: () => _playVideo(context, curVid.id),
-            child: Flex(
-              direction: Axis.horizontal,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Flexible(
-                    flex: 6,
-                    fit: FlexFit.tight,
-                    child: Image.network(
-                      videoImage,
-                      fit: BoxFit.fitHeight,
-                    )),
-                Flexible(
-                  flex: 1,
-                  fit: FlexFit.tight,
-                  child: Text(""),
-                ),
-                Flexible(
-                  flex: 8,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Text(_printTitle,
-                          style: Theme.of(context).textTheme.title),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: <Widget>[
-                          Text(curVid.channelTitle,
-                              style: Theme.of(context).textTheme.body1),
-                          Text(
-                              "${NumberFormat.compact().format(int.parse(curVid.views))} Views",
-                              style: Theme.of(context).textTheme.body1)
-                        ],
-                      )
-                    ],
-                  ),
-                ),
-              ],
-            )),
-      ),
-    );
+  List<Tab> parseTabs(context) {
+    return widget.categoryId.values
+        .map((cat) => Tab(
+                child: Text(
+              cat,
+              style: Theme.of(context)
+                  .textTheme
+                  .title
+                  .copyWith(color: Theme.of(context).primaryColor),
+            )))
+        .toList();
+  }
+
+  List<Widget> parseTabView() {
+    return widget.categoryId.keys
+        .map((key) => CardList(
+              items: videos[key],
+              id: key,
+            ))
+        .toList();
   }
 
   @override
   Widget build(BuildContext context) {
-    if (displayVideos.length == 0) {
-      return Text('No Recommended Videos found from Youtube API');
-    } else {
-      return Container(
-        margin: EdgeInsets.all(7.0),
-        padding: EdgeInsets.only(left: 5.0, right: 5.0, top: 3.0),
-        child: ListView.builder(
-          itemCount: displayVideos.length,
-          itemBuilder: _buildVideoTile,
+    return DefaultTabController(
+      length: widget.categoryId.length,
+      child: Scaffold(
+        appBar: AppBar(
+          elevation: 0,
+          backgroundColor: Theme.of(context).accentColor,
+          bottom: PreferredSize(
+            child: TabBar(
+              isScrollable: true,
+              unselectedLabelColor: Theme.of(context).accentColor,
+              indicatorColor: Theme.of(context).primaryColor,
+              tabs: parseTabs(context),
+            ),
+            preferredSize: Size.fromHeight(0),
+          ),
         ),
-      );
-    }
+        body: TabBarView(
+          children: parseTabView(),
+        ),
+      ),
+    );
   }
 }
