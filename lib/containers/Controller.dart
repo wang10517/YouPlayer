@@ -127,6 +127,7 @@ class _ControllerState extends State<Controller> {
       ),
       PersonalPage(
         builtIn: builtIn,
+        personal: _userDefined,
       ),
       SettingsPage(),
     ];

@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
             primaryColor: Color.fromRGBO(250, 0, 0, 1),
             accentColor: Colors.white,
             textTheme: TextTheme(
-              title: TextStyle(fontSize: 17),
-              body1: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
-              body2: TextStyle(fontSize: 15),
-            )),
+                title: TextStyle(fontSize: 17),
+                body1: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
+                body2: TextStyle(fontSize: 15),
+                display1: TextStyle(fontSize: 13, color: Colors.red))),
         home: Controller());
   }
 }

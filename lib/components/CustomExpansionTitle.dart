@@ -8,6 +8,7 @@ class CustomExpansionTile extends StatefulWidget {
   final Color background_exp;
   final Widget leading;
   final List<Widget> children;
+  final Widget trailing;
 
   CustomExpansionTile(
       {this.title,
@@ -16,6 +17,7 @@ class CustomExpansionTile extends StatefulWidget {
       this.background,
       this.background_exp,
       this.header,
+      this.trailing,
       this.header_exp});
 
   @override
@@ -39,6 +41,7 @@ class _CustomExpansionTileState extends State<CustomExpansionTile> {
         color: isExpanded ? widget.background_exp : widget.background,
       ),
       leading: widget.leading,
+      trailing: widget.trailing,
       children: widget.children,
       onExpansionChanged: (bool expanding) =>
           setState(() => this.isExpanded = expanding),

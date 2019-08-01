@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../model/Video.dart';
 import '../components/CustomExpansionTitle.dart';
+import './singleCollectionAdderModal.dart';
 
 class PersonalPage extends StatelessWidget {
   static const builtInAvatar = {
@@ -12,19 +13,43 @@ class PersonalPage extends StatelessWidget {
   final Map<String, List<Video>> builtIn;
   final Map<String, List<Video>> personal;
   final Map<String, List<Video>> youtube;
+  final Function addCollection;
+  final Function deleteCollections;
+  final Function addVideosToExistingCollection;
+  final Function addVideosToNewCollections;
 
-  Widget _buildCollection(String title, List<Video> videos, Widget leading) {
+  PersonalPage(
+      {this.builtIn,
+      this.personal,
+      this.youtube,
+      this.addCollection,
+      this.addVideosToExistingCollection,
+      this.addVideosToNewCollections,
+      this.deleteCollections,
+      Key key})
+      : super(key: key);
+
+  Widget _buildCollection(String title, List<Video> videos, Widget leading,
+      {Widget trailing}) {
     return ListTile(
       key: Key(title),
       leading: leading,
       title: Text(title),
       subtitle: Text("You have ${videos.length} in this collection"),
-      trailing: Icon(Icons.more_vert),
+      trailing: trailing,
     );
   }
 
-  PersonalPage({this.builtIn, this.personal, this.youtube, Key key})
-      : super(key: key);
+  void onPressCollectionAdder(BuildContext context) {
+    showModalBottomSheet(
+        context: context,
+        builder: (BuildContext context) {
+          return CollectionAdder(
+            adder: addCollection,
+            existingNames: personal.keys.toList(),
+          );
+        });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,15 +57,32 @@ class PersonalPage extends StatelessWidget {
       child: Column(
         children: <Widget>[
           ...builtIn.keys
-              .map((name) =>
-                  _buildCollection(name, builtIn[name], builtInAvatar[name]))
+              .map((name) => _buildCollection(
+                  name, builtIn[name], builtInAvatar[name],
+                  trailing: Icon(Icons.keyboard_arrow_right)))
               .toList(),
           CustomExpansionTile(
-            title: "Personal Collection (${_userDefined.keys.length})",
+            title: "Personal Collection (${personal.keys.length})",
             background: Theme.of(context).accentColor,
             background_exp: Theme.of(context).accentColor,
             header: Colors.black,
             header_exp: Colors.blue,
+            trailing: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: <Widget>[
+                GestureDetector(
+                    child: Icon(
+                      Icons.add,
+                      color: Colors.black,
+                    ),
+                    onTap: () => onPressCollectionAdder(context)),
+                GestureDetector(
+                    child: Icon(
+                  Icons.more_vert,
+                  color: Colors.black,
+                ))
+              ],
+            ),
             children: <Widget>[
               ...personal.keys
                   .map((name) => _buildCollection(
@@ -49,11 +91,14 @@ class PersonalPage extends StatelessWidget {
                       personal[name].length == 0
                           ? Icon(Icons.play_circle_filled)
                           : Image.network(
-                              "http://img.youtube.com/vi/${_userDefined[name][_userDefined[name].length - 1].id}/mqdefault.jpg",
+                              "http://img.youtube.com/vi/${personal[name][personal[name].length - 1].id}/mqdefault.jpg",
                               fit: BoxFit.fill,
                             )))
                   .toList()
             ],
+          ),
+          CustomExpansionTile(
+            title: "YouTube collections",
           )
         ],
       ),
