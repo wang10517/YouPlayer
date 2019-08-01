@@ -29,20 +29,26 @@ class _RecommendationPageState extends State<RecommendationPage> {
   }
 
   void fetchTrendingVideos(String id) async {
+    print('fetching started for ${id}');
     final String url =
         "https://www.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=10&regionCode=US&videoCategoryId=${id}&key=${Keys.ANDROID_PUBLIC}";
     final response = await http.get(url);
     if (response.statusCode == 200) {
+      print('response is 200 for ${id}');
       final jsonResponse = convert.jsonDecode(response.body);
       final parsed_vid = jsonResponse['items']
           .map((vid) => Video.fromJSON(vid) as Video)
           .toList()
           .cast<Video>();
       setState(() {
+        print('success setstate for ${id}');
+        print('${parsed_vid.length} given back');
         videos[id] = parsed_vid;
       });
     } else {
+      print('response is ${response.statusCode} for ${id}');
       if (!videos.containsKey(id)) {
+        print('failure setstate for ${id}');
         setState(() {
           videos[id] = [];
         });

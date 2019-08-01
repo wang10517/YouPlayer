@@ -1,0 +1,245 @@
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.219000, buffered: 0.100179, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.318000, buffered: 0.100179, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.318000, buffered: 0.100179, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.418000, buffered: 0.100179, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.418000, buffered: 0.100179, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.524000, buffered: 0.100179, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.524000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.636000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.636000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.740000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.740000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.869000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.869000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.938000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:56.938000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.022000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.022000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.167000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.167000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.218000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.218000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.317000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.317000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.442000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.442000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.535000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.535000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.634000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.634000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Another exception was thrown: A RenderFlex overflowed by 198 pixels on the right.
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.744000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.744000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.784000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.784000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.882000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.882000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.999000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:57.999000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.100000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.100000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.199000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.199000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.300000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.300000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.397000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.397000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.509000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.509000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.610000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.610000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.734000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.734000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.815000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.815000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.914000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:58.914000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.012000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.012000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.113000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.113000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.209000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.209000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.309000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.309000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.408000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.408000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): deactivate called
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+D/EGL_emulation(17002): eglMakeCurrent: 0xa53846c0: ver 3 0 (tinfo 0x8fc7f410)
+E/BufferQueueProducer(17002): [SurfaceTexture-0-17002-3] setAsyncMode: BufferQueue has been abandoned
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.497000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+E/BufferQueueProducer(17002): [SurfaceTexture-0-17002-3] cancelBuffer: BufferQueue has been abandoned
+I/flutter (17002): Another exception was thrown: setState() called after dispose(): _VideoPlayState#93fd1(lifecycle state: defunct, not mounted)
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+E/eglCodecCommon(17002): glUtilsParamSize: unknow param 0x000085b5
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.497000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Another exception was thrown: setState() called after dispose(): _VideoPlayState#93fd1(lifecycle state: defunct, not mounted)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.598000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Another exception was thrown: setState() called after dispose(): _VideoPlayState#93fd1(lifecycle state: defunct, not mounted)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.598000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+D/        (17002): PlayerBase::stop() from IPlayer
+D/AudioTrack(17002): stop() called with 690052 frames delivered
+I/flutter (17002): Another exception was thrown: setState() called after dispose(): _VideoPlayState#93fd1(lifecycle state: defunct, not mounted)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.698000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Another exception was thrown: setState() called after dispose(): _VideoPlayState#93fd1(lifecycle state: defunct, not mounted)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.698000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Another exception was thrown: setState() called after dispose(): _VideoPlayState#93fd1(lifecycle state: defunct, not mounted)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.815000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Another exception was thrown: setState() called after dispose(): _VideoPlayState#93fd1(lifecycle state: defunct, not mounted)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.815000, buffered: 0.110884, isPlaying: true, volume: 100, playerState: PlayerState.PLAYING, errorCode: 0)
+I/flutter (17002): Another exception was thrown: setState() called after dispose(): _VideoPlayState#93fd1(lifecycle state: defunct, not mounted)
+I/flutter (17002): Listener called
+I/flutter (17002): YoutubePlayerValue(isReady: true, isLoaded: true, duration: 0:19:32.401000, position: 0:00:59.815000, buffered: 0.110884, isPlaying: false, volume: 100, playerState: PlayerState.PAUSED, errorCode: 0)
+I/flutter (17002): Another exception was thrown: setState() called after dispose(): _VideoPlayState#93fd1(lifecycle state: defunct, not mounted)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

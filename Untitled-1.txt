@@ -1,0 +1,658 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/8k3W5Uh14yOIxGmHfxpZo28V4FQ\"",
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/ilOETxo-AumyAYCEG2Ix-JNkEkk\"",
+      "id": "2lrBphwQOrI",
+      "snippet": {
+        "publishedAt": "2019-07-29T21:57:14.000Z",
+        "channelId": "UCRijo3ddMTht_IHyNSNXpNQ",
+        "title": "Bass Fishing Battle | Dude Perfect",
+        "description": "Time to fish, Dude Perfect style. \n► Special thanks to Bass Pro for Sponsoring this video! Check out their store HERE! \nhttps://www.dudeperfect.com/basspro2/\n\n► Want an EXTRA Dude Perfect Video every week? Join the DP SQUAD! https://www.youtube.com/user/corycotton/join\n► Thanks for subscribing! - http://bit.ly/SubDudePerfect\n\nMusic: “King of the Mountain\" by Louis II:\n► Click HERE to listen on YouTube:\nhttps://youtu.be/ubK1yEjhN1k\n► Click HERE to listen on Spotify:\nhttps://open.spotify.com/track/6nj9g1r2EXZOC1dAEErW0z?si=Nl0S6n5WTWCNDjG9IV7zXw\n► Click HERE to listen on Apple Music:\nhttps://music.apple.com/us/album/king-of-the-mountain/1437038676?i=1437038759\n► Click HERE to visit Louis II's Instagram page - https://www.instagram.com/louisiimusic/\n\nNEXT LEVEL STUFF \n-------------------------------------------\n🎒 NEW Merch - http://bit.ly/DPStore\n🎮 Play our FREE iPhone game! - http://smarturl.it/DudePerfect2\n📱 JOIN our VIP TEXT LIST - http://bit.ly/DPTextVIP\n🔔 Hit the bell next to Subscribe so you don't miss a video!\n👨🏻‍💻 Watch our newest vids! - http://bit.ly/NewDPVids\n📕 Read our Book - \"Go Big\" - http://amzn.to/OYdZ2s\n\nFollow our Instagrams so we can be best friends \n-------------------------------------------\n🏆 http://Instagram.com/DudePerfect\n🧔🏻 http://Instagram.com/TylerNToney\n👱🏻‍♂️ http://Instagram.com/Cody_Jones_\n🙋🏻‍♂️ http://Instagram.com/CobyCotton\n👨‍🦰 http://Instagram.com/GarrettHilbert\n⛹🏻‍♂️ http://Instagram.com/CoryCotton\n\nBonus points if you're still reading this! \nComment: Those fish are HUGE!!!\n\nClick here to learn more about Dude Perfect:\nhttp://bit.ly/AboutDudePerfect\n\nAs always...Go Big and God Bless!\n- Your friends at Dude Perfect\n\nBusiness or Media, please contact us at: \nDude@DudePerfect.com\n\n5 Msgs/Month. Reply STOP to cancel, HELP for help. Msg&data rates may apply. Terms: slkt.io/DLd\n\n------------\n\n5 Best Friends and a Panda.\nIf you like Sports + Comedy, come join the Dude Perfect team!\n\nBest known for trick shots, stereotypes, battles, bottle flips, ping pong shots and all-around competitive fun, Dude Perfect prides ourselves in making the absolute best family-friendly entertainment possible! Welcome to the crew! \n\nPound it 👊🏻 Noggin 🙇🏻‍♂️ \n- Dude Perfect",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2lrBphwQOrI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2lrBphwQOrI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2lrBphwQOrI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2lrBphwQOrI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/2lrBphwQOrI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dude Perfect",
+        "tags": [
+          "dude perfect",
+          "dude perfect stereotypes",
+          "dude perfect water bottle flip",
+          "bottle flip",
+          "water bottle flip",
+          "dude perfect bottle flip",
+          "dude perfect basketball",
+          "dp",
+          "dude perfect world record",
+          "edition",
+          "nerf",
+          "trick shots",
+          "trick shot",
+          "family",
+          "ping pong",
+          "bowling",
+          "clean",
+          "family friendly",
+          "bubble wrap",
+          "soccer",
+          "football",
+          "spinner",
+          "spinners",
+          "fidget spinners",
+          "dude",
+          "fishing",
+          "fish",
+          "bass",
+          "pro",
+          "cabelas",
+          "rc",
+          "boat",
+          "hand",
+          "line",
+          "deep",
+          "sea",
+          "river",
+          "no fish",
+          "twins"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Bass Fishing Battle | Dude Perfect",
+          "description": "Time to fish, Dude Perfect style. \n► Special thanks to Bass Pro for Sponsoring this video! Check out their store HERE! \nhttps://www.dudeperfect.com/basspro2/\n\n► Want an EXTRA Dude Perfect Video every week? Join the DP SQUAD! https://www.youtube.com/user/corycotton/join\n► Thanks for subscribing! - http://bit.ly/SubDudePerfect\n\nMusic: “King of the Mountain\" by Louis II:\n► Click HERE to listen on YouTube:\nhttps://youtu.be/ubK1yEjhN1k\n► Click HERE to listen on Spotify:\nhttps://open.spotify.com/track/6nj9g1r2EXZOC1dAEErW0z?si=Nl0S6n5WTWCNDjG9IV7zXw\n► Click HERE to listen on Apple Music:\nhttps://music.apple.com/us/album/king-of-the-mountain/1437038676?i=1437038759\n► Click HERE to visit Louis II's Instagram page - https://www.instagram.com/louisiimusic/\n\nNEXT LEVEL STUFF \n-------------------------------------------\n🎒 NEW Merch - http://bit.ly/DPStore\n🎮 Play our FREE iPhone game! - http://smarturl.it/DudePerfect2\n📱 JOIN our VIP TEXT LIST - http://bit.ly/DPTextVIP\n🔔 Hit the bell next to Subscribe so you don't miss a video!\n👨🏻‍💻 Watch our newest vids! - http://bit.ly/NewDPVids\n📕 Read our Book - \"Go Big\" - http://amzn.to/OYdZ2s\n\nFollow our Instagrams so we can be best friends \n-------------------------------------------\n🏆 http://Instagram.com/DudePerfect\n🧔🏻 http://Instagram.com/TylerNToney\n👱🏻‍♂️ http://Instagram.com/Cody_Jones_\n🙋🏻‍♂️ http://Instagram.com/CobyCotton\n👨‍🦰 http://Instagram.com/GarrettHilbert\n⛹🏻‍♂️ http://Instagram.com/CoryCotton\n\nBonus points if you're still reading this! \nComment: Those fish are HUGE!!!\n\nClick here to learn more about Dude Perfect:\nhttp://bit.ly/AboutDudePerfect\n\nAs always...Go Big and God Bless!\n- Your friends at Dude Perfect\n\nBusiness or Media, please contact us at: \nDude@DudePerfect.com\n\n5 Msgs/Month. Reply STOP to cancel, HELP for help. Msg&data rates may apply. Terms: slkt.io/DLd\n\n------------\n\n5 Best Friends and a Panda.\nIf you like Sports + Comedy, come join the Dude Perfect team!\n\nBest known for trick shots, stereotypes, battles, bottle flips, ping pong shots and all-around competitive fun, Dude Perfect prides ourselves in making the absolute best family-friendly entertainment possible! Welcome to the crew! \n\nPound it 👊🏻 Noggin 🙇🏻‍♂️ \n- Dude Perfect"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT8M56S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "6013495",
+        "likeCount": "271207",
+        "dislikeCount": "5192",
+        "favoriteCount": "0",
+        "commentCount": "11332"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/62sivKHDUze3kKqzucNoS0Rcb3U\"",
+      "id": "ugRc5jx80yg",
+      "snippet": {
+        "publishedAt": "2019-07-28T16:17:19.000Z",
+        "channelId": "UCY1kMZp36IQSyNx_9h4mpCg",
+        "title": "Testing if Sharks Can Smell a Drop of Blood",
+        "description": "Scientific proof Pixar sits on a throne of lies.  Thanks to Bose for their support and for the dopest headphones I've ever worn: https://bose.life/markrober\n\nAlso, thanks to Discovery for putting my life in danger.  \n#SharkWeek begins July 28 only on Discovery\nFACEBOOK: https://www.facebook.com/sharkweek\nTWITTER: https://twitter.com/sharkweek\nINSTAGRAM: https://www.instagram.com/sharkweek/\nYOUTUBE: https://www.youtube.com/discoverychannel\n\nLinks for the build instructions: https://www.dropbox.com/s/iqn14ydzqafhws5/SharkBait_Manual_PartsList.pdf?dl=0\n\nSean's Hodgin's channel who did most of the heavy lifting for making the boxes:  https://www.youtube.com/channel/UCE-bw6PRKuDlH6fP1mP4nOw\n\nPump animation made by the talented Jared Owens:\nhttp://youtube.com/JaredOwen\n\nConnor was the beast feeding the sharks underwater.  He has some amazing footage for licensing and his own YouTube channel.\nYT: https://www.youtube.com/channel/UC5fn3MXGv41LY-BB8XRjyCQ\nemail: sharkmanconnor@gmail.com\nInsta: @sharkmanconnor\n\nFollow my marine biologist friend Luke Tipple on Instagram- https://www.instagram.com/luketipple/\n\nMore info that was promised-\nWhat is likely happening is that the sharks can smell the blood but it's just not in a quantity that is interesting to them especially since they don't love human blood that much (btw, I spoke with a marine biologist and mammal blood is all the same from a chemical marker stand point so cow blood is a suitable substitute for human blood).  If I did the experiment again, I would want to test human blood vs. fish blood.  \n\nThis is the most definitive study done to date in a control lab environment on what is least and most interesting to them:  The Biology of Sharks and Rays Peter A. Klimley and Steven Oerding;  ISBN-13: 9780226442495. Particularly pages 134-140. Figure 6.7; Table 6.2\n\n\n***Music***\n\n00:11 - Arrow - Andrew Applepie http://andrewapplepie.com/\n01:14 - Kalimba Jam - Blue Wednesday https://soundcloud.com/bluewednesday/ \n2:30 - Dizzy - Political Statement and JMoney - https://soundcloud.com/dylanruff/political-statement-jmoney-dizzy\n3:59 - Cereal Killa - Blue Wednesday https://soundcloud.com/bluewednesday/\n5:17 - Marimba Idea - Blue Wednesday https://soundcloud.com/bluewednesday/\n6:12 - Berlin - Andrew Applepie - http://andrewapplepie.com/\n6:40 - Dansez - Fasion https://soundcloud.com/michalgallo/dansez-fasion-beats-music\n10:45 - Dive - Lvly https://www.epidemicsound.com/track/4JmHD4z5Bj\n12:34 - New Shoes - Blue Wednesday https://soundcloud.com/bluewednesday/\n13:02 - Q - Blue Wednesday https://soundcloud.com/bluewednesday/  \n15:12 - Too Happy to be cool by Notebreak https://soundcloud.com/notebreak/dubstep-too-happy-to-be-cool\n\n\n\nSummary:  I've always wanted to test if sharks can really smell a single drop of blood in the water from 1 mile away.  So I went to the Bahamas in shark infested waters and set up an experiment to get to the bottom of things.\n\n\n\nMERCH-\nThey are soft- https://teespring.com/stores/markrober\n\n\nPLEASE CONSIDER SUBSCRIBING: http://tinyurl.com/MarkRober-Sub\n\n****************************************­\n\nI make videos like this once a month all year long while supplies last:\n\nCHECK OUT MY CHANNEL: http://tinyurl.com/MarkRober-YouTube\n\nFACEBOOK: https://www.facebook.com/MarkRoberYouTube\n\nTWITTER: https://twitter.com/#!/MarkRober\n\nINSTAGRAM:  https://www.instagram.com/markrober/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ugRc5jx80yg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ugRc5jx80yg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ugRc5jx80yg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ugRc5jx80yg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ugRc5jx80yg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Mark Rober",
+        "tags": [
+          "sharkweek",
+          "shark",
+          "discovery",
+          "bose",
+          "mark rober",
+          "can sharks smell a single drop of blood in the water",
+          "Mr. Beast",
+          "science",
+          "nasa",
+          "sharks",
+          "experiment",
+          "test"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Testing if Sharks Can Smell a Drop of Blood",
+          "description": "Scientific proof Pixar sits on a throne of lies.  Thanks to Bose for their support and for the dopest headphones I've ever worn: https://bose.life/markrober\n\nAlso, thanks to Discovery for putting my life in danger.  \n#SharkWeek begins July 28 only on Discovery\nFACEBOOK: https://www.facebook.com/sharkweek\nTWITTER: https://twitter.com/sharkweek\nINSTAGRAM: https://www.instagram.com/sharkweek/\nYOUTUBE: https://www.youtube.com/discoverychannel\n\nLinks for the build instructions: https://www.dropbox.com/s/iqn14ydzqafhws5/SharkBait_Manual_PartsList.pdf?dl=0\n\nSean's Hodgin's channel who did most of the heavy lifting for making the boxes:  https://www.youtube.com/channel/UCE-bw6PRKuDlH6fP1mP4nOw\n\nPump animation made by the talented Jared Owens:\nhttp://youtube.com/JaredOwen\n\nConnor was the beast feeding the sharks underwater.  He has some amazing footage for licensing and his own YouTube channel.\nYT: https://www.youtube.com/channel/UC5fn3MXGv41LY-BB8XRjyCQ\nemail: sharkmanconnor@gmail.com\nInsta: @sharkmanconnor\n\nFollow my marine biologist friend Luke Tipple on Instagram- https://www.instagram.com/luketipple/\n\nMore info that was promised-\nWhat is likely happening is that the sharks can smell the blood but it's just not in a quantity that is interesting to them especially since they don't love human blood that much (btw, I spoke with a marine biologist and mammal blood is all the same from a chemical marker stand point so cow blood is a suitable substitute for human blood).  If I did the experiment again, I would want to test human blood vs. fish blood.  \n\nThis is the most definitive study done to date in a control lab environment on what is least and most interesting to them:  The Biology of Sharks and Rays Peter A. Klimley and Steven Oerding;  ISBN-13: 9780226442495. Particularly pages 134-140. Figure 6.7; Table 6.2\n\n\n***Music***\n\n00:11 - Arrow - Andrew Applepie http://andrewapplepie.com/\n01:14 - Kalimba Jam - Blue Wednesday https://soundcloud.com/bluewednesday/ \n2:30 - Dizzy - Political Statement and JMoney - https://soundcloud.com/dylanruff/political-statement-jmoney-dizzy\n3:59 - Cereal Killa - Blue Wednesday https://soundcloud.com/bluewednesday/\n5:17 - Marimba Idea - Blue Wednesday https://soundcloud.com/bluewednesday/\n6:12 - Berlin - Andrew Applepie - http://andrewapplepie.com/\n6:40 - Dansez - Fasion https://soundcloud.com/michalgallo/dansez-fasion-beats-music\n10:45 - Dive - Lvly https://www.epidemicsound.com/track/4JmHD4z5Bj\n12:34 - New Shoes - Blue Wednesday https://soundcloud.com/bluewednesday/\n13:02 - Q - Blue Wednesday https://soundcloud.com/bluewednesday/  \n15:12 - Too Happy to be cool by Notebreak https://soundcloud.com/notebreak/dubstep-too-happy-to-be-cool\n\n\n\nSummary:  I've always wanted to test if sharks can really smell a single drop of blood in the water from 1 mile away.  So I went to the Bahamas in shark infested waters and set up an experiment to get to the bottom of things.\n\n\n\nMERCH-\nThey are soft- https://teespring.com/stores/markrober\n\n\nPLEASE CONSIDER SUBSCRIBING: http://tinyurl.com/MarkRober-Sub\n\n****************************************­\n\nI make videos like this once a month all year long while supplies last:\n\nCHECK OUT MY CHANNEL: http://tinyurl.com/MarkRober-YouTube\n\nFACEBOOK: https://www.facebook.com/MarkRoberYouTube\n\nTWITTER: https://twitter.com/#!/MarkRober\n\nINSTAGRAM:  https://www.instagram.com/markrober/"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT15M35S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "21572106",
+        "likeCount": "557563",
+        "dislikeCount": "26210",
+        "favoriteCount": "0",
+        "commentCount": "34415"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/OajEVwrbcxfOatKynVKbqOp981Q\"",
+      "id": "gSVUfktiLpo",
+      "snippet": {
+        "publishedAt": "2019-07-29T18:57:42.000Z",
+        "channelId": "UC7zOpx9wgvGBCDEjujnAPQA",
+        "title": "Big Sean - Single Again (Official Video)",
+        "description": "https://BigSean.lnk.to/SingleAgain\n\nhttps://www.instagram.com/bigsean/\nhttps://twitter.com/BigSean\nhttps://www.facebook.com/uknowbigsean\n\nDirector/Writer: Lawrence Lamont \nProducer: Lu Stinnette\nExecutive Producers: Stephen Love Jr., Justin Polk, Mel Jones\nDirector of Photography: Jon Chema\nEditor: Mike Carson\nStarring: Ryan Destiny & Keith Powers\nProduction Designer: Joey Ostrander\nColorist: Joseph Bicknell for Company 3\nVFX Supervisor: JR Strickland\nVFX Company: Nocturnal FX\nSound Design: Jordan Meltzer for Eleven Sound\nProduction Company: Invisible Collective\n\nCast\nBianca: Ryan Destiny\nElliot: Keith Powers\nDana: Kendall Tiffany Hall\nHaha: Haha Davis\nJ: J Will\nNews Reporter: Rhonda Walker\nBeautician: Delo Brown\nFriend: Torion Johnson\nFriend: Sabrin Ismail\nKid: Bernard Earl\nKid: Brailyn Harris\nKid: Jailyn Knighton\nKid: Jordyn Knighton\nKid: Louis Ross IV\n\nCrew\nProduction Coordinator: Cheri Mitchell\nLocation Manager: Tom Moisides\n1st Assistant Director: Hilton Day\n2nd Assistant Director: Karl Williams Jr. \n1st Assistant Camera: James Teninty\n2nd Assistant Camera: Natalie Abraham\nDIT: Nigel Robins\nSteadicam Operator: Colin MacDonnell\nRussian Arm Car Tech: Robert Dwight\nRussian Arm Car Tech: Mark West\nBTS: Dennis Belton Jr., Donavan Glover\nGaffer: Drew Valenti\nBest Boy Electric: Steven Van Maele\nElectric: Chase Wansedel\nElectric: Andrew Webster\nElectric: Emmanuel Webster\nElectric: David Blake Brown\nKey Grip: Chris Bauer\nBest Boy Grip: Josh Ficken\nGrip: Jon Gray\nGrip: Bryan Kimbel\nGrip: Alan Janush\nSound Mixer: Mark Haygen\nSet Decorator: Ariel Ellis\nSet Decorator: Vera Washington\nSet Decorator: Mary Cahalan\nAssistant Editor: Shannon C. Griffin\nVFX Artist:\nJR Strickland\nPaul DeNegris\nAboubakr Boukhari\nKawika Banis\nSeth Wise\nOnline/Finishing: Shannon C Griffin at Nocturnal FX\nBig Sean Stylist: Van Van Alonso\nBig Sean Groomer: Lucia Rodriguez\nBig Sean Hair: Khalil Sledge\nMakeup Artist: Moriah Mierre\nMakeup Artist Assistant: Antonio Allison\nHair: Darnell Davis\nLead Hair Assistant: Jamie Keith\nHair Assistant: Shamell Sha’Donna\nWardrobe Stylist: Asia Beard-Watkins\nWardrobe Assistant Brittany Roberson\nWardrobe Assistant: Darbee Pass\nWardrobe Assistant: Gabrielle Spears\nOffice PA: Jayne Smith\nPA: Justin Edwards\nPA: Nicoletta Iaonnou\nPA: Andre Rowlett\nPA: Nick Alexander\nPA: Crystal Ellis\nPA: Carlos Calhoun\nPA: Stefan Whitaker\nIntern: Chaz Ortega\nIntern: Xavier Cuevas\nIntern: Marc Miller\nIntern: Ayana Love\nIntern: Diamond Lee\n\nSpecial Thanks\nStockX\nPuma\nHarper Ray Accessories\nSiana Treece Collection \nBelton Media Group \nRed Bull\nWDIV Local 4\nKen Haddad\nAdrian Tonon\nJamie Kaye Walters\nGavin Smith\n\nMade in Detroit\n\nMusic video by Big Sean performing Single Again. © 2019 Getting Out Our Dreams, Inc./Def Jam Recordings, a division of UMG Recordings, Inc.\n\nhttp://vevo.ly/6Ua4MA",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gSVUfktiLpo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gSVUfktiLpo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gSVUfktiLpo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gSVUfktiLpo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gSVUfktiLpo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BigSeanVEVO",
+        "tags": [
+          "Big",
+          "Sean",
+          "Single",
+          "Again",
+          "Getting",
+          "Out",
+          "Our",
+          "Dreams",
+          "Inc./Def",
+          "Jam",
+          "Recordings",
+          "Hip",
+          "Hop"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Big Sean - Single Again (Official Video)",
+          "description": "https://BigSean.lnk.to/SingleAgain\n\nhttps://www.instagram.com/bigsean/\nhttps://twitter.com/BigSean\nhttps://www.facebook.com/uknowbigsean\n\nDirector/Writer: Lawrence Lamont \nProducer: Lu Stinnette\nExecutive Producers: Stephen Love Jr., Justin Polk, Mel Jones\nDirector of Photography: Jon Chema\nEditor: Mike Carson\nStarring: Ryan Destiny & Keith Powers\nProduction Designer: Joey Ostrander\nColorist: Joseph Bicknell for Company 3\nVFX Supervisor: JR Strickland\nVFX Company: Nocturnal FX\nSound Design: Jordan Meltzer for Eleven Sound\nProduction Company: Invisible Collective\n\nCast\nBianca: Ryan Destiny\nElliot: Keith Powers\nDana: Kendall Tiffany Hall\nHaha: Haha Davis\nJ: J Will\nNews Reporter: Rhonda Walker\nBeautician: Delo Brown\nFriend: Torion Johnson\nFriend: Sabrin Ismail\nKid: Bernard Earl\nKid: Brailyn Harris\nKid: Jailyn Knighton\nKid: Jordyn Knighton\nKid: Louis Ross IV\n\nCrew\nProduction Coordinator: Cheri Mitchell\nLocation Manager: Tom Moisides\n1st Assistant Director: Hilton Day\n2nd Assistant Director: Karl Williams Jr. \n1st Assistant Camera: James Teninty\n2nd Assistant Camera: Natalie Abraham\nDIT: Nigel Robins\nSteadicam Operator: Colin MacDonnell\nRussian Arm Car Tech: Robert Dwight\nRussian Arm Car Tech: Mark West\nBTS: Dennis Belton Jr., Donavan Glover\nGaffer: Drew Valenti\nBest Boy Electric: Steven Van Maele\nElectric: Chase Wansedel\nElectric: Andrew Webster\nElectric: Emmanuel Webster\nElectric: David Blake Brown\nKey Grip: Chris Bauer\nBest Boy Grip: Josh Ficken\nGrip: Jon Gray\nGrip: Bryan Kimbel\nGrip: Alan Janush\nSound Mixer: Mark Haygen\nSet Decorator: Ariel Ellis\nSet Decorator: Vera Washington\nSet Decorator: Mary Cahalan\nAssistant Editor: Shannon C. Griffin\nVFX Artist:\nJR Strickland\nPaul DeNegris\nAboubakr Boukhari\nKawika Banis\nSeth Wise\nOnline/Finishing: Shannon C Griffin at Nocturnal FX\nBig Sean Stylist: Van Van Alonso\nBig Sean Groomer: Lucia Rodriguez\nBig Sean Hair: Khalil Sledge\nMakeup Artist: Moriah Mierre\nMakeup Artist Assistant: Antonio Allison\nHair: Darnell Davis\nLead Hair Assistant: Jamie Keith\nHair Assistant: Shamell Sha’Donna\nWardrobe Stylist: Asia Beard-Watkins\nWardrobe Assistant Brittany Roberson\nWardrobe Assistant: Darbee Pass\nWardrobe Assistant: Gabrielle Spears\nOffice PA: Jayne Smith\nPA: Justin Edwards\nPA: Nicoletta Iaonnou\nPA: Andre Rowlett\nPA: Nick Alexander\nPA: Crystal Ellis\nPA: Carlos Calhoun\nPA: Stefan Whitaker\nIntern: Chaz Ortega\nIntern: Xavier Cuevas\nIntern: Marc Miller\nIntern: Ayana Love\nIntern: Diamond Lee\n\nSpecial Thanks\nStockX\nPuma\nHarper Ray Accessories\nSiana Treece Collection \nBelton Media Group \nRed Bull\nWDIV Local 4\nKen Haddad\nAdrian Tonon\nJamie Kaye Walters\nGavin Smith\n\nMade in Detroit\n\nMusic video by Big Sean performing Single Again. © 2019 Getting Out Our Dreams, Inc./Def Jam Recordings, a division of UMG Recordings, Inc.\n\nhttp://vevo.ly/6Ua4MA"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT6M12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "regionRestriction": {
+          "allowed": [
+            "TN",
+            "TO",
+            "TL",
+            "TM",
+            "IM",
+            "IL",
+            "TH",
+            "IN",
+            "TF",
+            "TG",
+            "TD",
+            "IE",
+            "ID",
+            "MV",
+            "TZ",
+            "IQ",
+            "TW",
+            "IS",
+            "IR",
+            "TR",
+            "IT",
+            "TK",
+            "AQ",
+            "AS",
+            "AR",
+            "AU",
+            "AT",
+            "AW",
+            "AX",
+            "AZ",
+            "AE",
+            "AD",
+            "AG",
+            "AF",
+            "AI",
+            "AM",
+            "AL",
+            "AO",
+            "QA",
+            "NZ",
+            "FI",
+            "FJ",
+            "FK",
+            "FM",
+            "FO",
+            "NI",
+            "FR",
+            "NL",
+            "NO",
+            "NA",
+            "NC",
+            "YE",
+            "NE",
+            "NF",
+            "NG",
+            "ME",
+            "MD",
+            "KR",
+            "KW",
+            "MC",
+            "HK",
+            "KZ",
+            "KY",
+            "VA",
+            "VC",
+            "KG",
+            "VE",
+            "KE",
+            "VG",
+            "HN",
+            "KI",
+            "KH",
+            "KN",
+            "KM",
+            "CZ",
+            "CY",
+            "CX",
+            "CR",
+            "HM",
+            "CW",
+            "CV",
+            "CU",
+            "CK",
+            "CI",
+            "CH",
+            "CO",
+            "CN",
+            "CM",
+            "CL",
+            "CC",
+            "CA",
+            "CG",
+            "CF",
+            "CD",
+            "SK",
+            "SJ",
+            "SI",
+            "SH",
+            "SO",
+            "SN",
+            "SM",
+            "SL",
+            "SC",
+            "SB",
+            "SA",
+            "SG",
+            "SE",
+            "SD",
+            "SZ",
+            "SY",
+            "SX",
+            "HR",
+            "SR",
+            "LY",
+            "TV",
+            "HT",
+            "HU",
+            "TT",
+            "MU",
+            "MT",
+            "MW",
+            "PA",
+            "PF",
+            "PG",
+            "MS",
+            "MR",
+            "PK",
+            "PH",
+            "PN",
+            "MX",
+            "PL",
+            "PM",
+            "PR",
+            "PS",
+            "MG",
+            "MF",
+            "MA",
+            "PW",
+            "PT",
+            "GP",
+            "MM",
+            "ML",
+            "MO",
+            "PY",
+            "MH",
+            "MK",
+            "VU",
+            "GA",
+            "TJ",
+            "ET",
+            "RO",
+            "ES",
+            "ER",
+            "EH",
+            "EE",
+            "EG",
+            "ST",
+            "EC",
+            "UM",
+            "JM",
+            "JO",
+            "MN",
+            "JE",
+            "UG",
+            "TC",
+            "UY",
+            "JP",
+            "US",
+            "BT",
+            "BV",
+            "BW",
+            "BQ",
+            "BR",
+            "BS",
+            "GU",
+            "BZ",
+            "BD",
+            "BE",
+            "BG",
+            "BA",
+            "BB",
+            "BL",
+            "BM",
+            "BO",
+            "BH",
+            "BI",
+            "BJ",
+            "GG",
+            "GF",
+            "GE",
+            "GD",
+            "GB",
+            "MY",
+            "GN",
+            "GM",
+            "ZW",
+            "GT",
+            "GI",
+            "GH",
+            "GW",
+            "RU",
+            "OM",
+            "RW",
+            "GS",
+            "GR",
+            "GQ",
+            "RS",
+            "VI",
+            "ZA",
+            "GY",
+            "MP",
+            "ZM",
+            "RE",
+            "VN",
+            "NR",
+            "LV",
+            "LT",
+            "LU",
+            "WS",
+            "LS",
+            "UA",
+            "NU",
+            "PE",
+            "WF",
+            "LB",
+            "LC",
+            "LA",
+            "LK",
+            "YT",
+            "LI",
+            "MZ",
+            "DZ",
+            "LR",
+            "DO",
+            "SV",
+            "DM",
+            "DJ",
+            "DK",
+            "MQ",
+            "DE"
+          ]
+        },
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1454679",
+        "likeCount": "114874",
+        "dislikeCount": "2116",
+        "favoriteCount": "0",
+        "commentCount": "6688"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/BRAHwu7BYY5ei9oP03TV3dDsnto\"",
+      "id": "UhmDaf9f0Rc",
+      "snippet": {
+        "publishedAt": "2019-07-28T16:02:28.000Z",
+        "channelId": "UCo8bcnLyZH8tBIH9V1mLgqQ",
+        "title": "Movie Sequels",
+        "description": "If this video does well I will make a sequel to it because I know you will like it and Im unoriginal :)\nWebsite/Merch: https://theodd1sout.com/\nScribble showdown ➤ http://scribbleshowdown.com/\n\nAdditional artists: \nRushlight Invader ➤ https://www.youtube.com/user/RushLightInvader\nAnnie Loomis ➤ https://twitter.com/annieloomisart\nAntiDarkHeart ➤ https://twitter.com/AntiDarkHeart\nPantslessPajamas ➤ https://www.youtube.com/channel/UCR0O-1cvuPNxDosvSDLpWHg\nHexrin ➤ https://twitter.com/hexriin\nKat ➤ https://twitter.com/NineDoodles\nfunymony ➤ https://www.youtube.com/user/funymony\nGetMadz ➤ https://www.youtube.com/user/TheMadz2012\n\nBig thanks to PapaSaber for doing the sound design: \nhttps://www.youtube.com/channel/UC_9I2NAxTjd3C4BznBfnVrw\n\nAnd Pepiot for being my emergency background artist https://twitter.com/NotPepiot\n\n\nTwitter ➤ https://twitter.com/Theodd1sout\nInstagram ➤ https://www.instagram.com/theodd1sout/\nSecond Channel ➤ https://www.youtube.com/channel/UC0GLNhtTu7yI8rl6ZZGeezw",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UhmDaf9f0Rc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UhmDaf9f0Rc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UhmDaf9f0Rc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UhmDaf9f0Rc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UhmDaf9f0Rc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheOdd1sOut",
+        "tags": [
+          "Movies",
+          "Sequels",
+          "Dreamworks",
+          "Shrek",
+          "Kung fu Panda",
+          "Dreamworks trequal paradox",
+          "madagascar",
+          "penguins",
+          "penguins of madagascar",
+          "animation",
+          "cartoon",
+          "funny",
+          "lol",
+          "theodd1sout",
+          "theoddisout",
+          "theoddonesout"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Movie Sequels",
+          "description": "If this video does well I will make a sequel to it because I know you will like it and Im unoriginal :)\nWebsite/Merch: https://theodd1sout.com/\nScribble showdown ➤ http://scribbleshowdown.com/\n\nAdditional artists: \nRushlight Invader ➤ https://www.youtube.com/user/RushLightInvader\nAnnie Loomis ➤ https://twitter.com/annieloomisart\nAntiDarkHeart ➤ https://twitter.com/AntiDarkHeart\nPantslessPajamas ➤ https://www.youtube.com/channel/UCR0O-1cvuPNxDosvSDLpWHg\nHexrin ➤ https://twitter.com/hexriin\nKat ➤ https://twitter.com/NineDoodles\nfunymony ➤ https://www.youtube.com/user/funymony\nGetMadz ➤ https://www.youtube.com/user/TheMadz2012\n\nBig thanks to PapaSaber for doing the sound design: \nhttps://www.youtube.com/channel/UC_9I2NAxTjd3C4BznBfnVrw\n\nAnd Pepiot for being my emergency background artist https://twitter.com/NotPepiot\n\n\nTwitter ➤ https://twitter.com/Theodd1sout\nInstagram ➤ https://www.instagram.com/theodd1sout/\nSecond Channel ➤ https://www.youtube.com/channel/UC0GLNhtTu7yI8rl6ZZGeezw"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT9M3S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "7974476",
+        "likeCount": "514768",
+        "dislikeCount": "7915",
+        "favoriteCount": "0",
+        "commentCount": "76929"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/x9A7aQ0T9F-1-tzf_J6hLGCyOJk\"",
+      "id": "Eo_mo5vA7tw",
+      "snippet": {
+        "publishedAt": "2019-07-29T23:00:20.000Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) LOVE MYSELF Global Campaign Video",
+        "description": "BTS (방탄소년단) LOVE MYSELF Global Campaign Video\n\n\r\nLOVE MYSELF 캠페인에 대해 더 알고싶다면 아래 웹사이트와 SNS 채널을 방문해 주세요.\n\r\nTo learn more about #BTSLoveMyself campaign please visit below websites and social channels.\n\n\r\nLOVE MYSELF Official Twitter\r\n- https://twitter.com/bts_love_myself\n\r\nLOVE MYSELF Official Instagram\r\n- https://www.instagram.com/bts_love_myself\n\nLOVE MYSELF Official Website\n- https://www.love-myself.org\n\r\nUNICEF #ENDviolence\r\n- http://endviolence.unicef.or.kr\n\n\n\r\n#BTS #방탄소년단 #Bighitentertainment #BTSLoveMyself #ENDviolence #UNICEF #유니세프",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Eo_mo5vA7tw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Eo_mo5vA7tw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Eo_mo5vA7tw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Eo_mo5vA7tw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Eo_mo5vA7tw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "ibighit",
+        "tags": [
+          "BIGHIT",
+          "빅히트",
+          "방탄소년단",
+          "BTS",
+          "BANGTAN",
+          "방탄",
+          "ENDviolence"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "BTS (방탄소년단) LOVE MYSELF Global Campaign Video",
+          "description": "BTS (방탄소년단) LOVE MYSELF Global Campaign Video\n\n\r\nLOVE MYSELF 캠페인에 대해 더 알고싶다면 아래 웹사이트와 SNS 채널을 방문해 주세요.\n\r\nTo learn more about #BTSLoveMyself campaign please visit below websites and social channels.\n\n\r\nLOVE MYSELF Official Twitter\r\n- https://twitter.com/bts_love_myself\n\r\nLOVE MYSELF Official Instagram\r\n- https://www.instagram.com/bts_love_myself\n\nLOVE MYSELF Official Website\n- https://www.love-myself.org\n\r\nUNICEF #ENDviolence\r\n- http://endviolence.unicef.or.kr\n\n\n\r\n#BTS #방탄소년단 #Bighitentertainment #BTSLoveMyself #ENDviolence #UNICEF #유니세프"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2M30S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "5285886",
+        "likeCount": "1803772",
+        "dislikeCount": "9651",
+        "favoriteCount": "0",
+        "commentCount": "128012"
+      }
+    }
+  ]
+}

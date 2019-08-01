@@ -171,7 +171,6 @@ class _CardListState extends State<CardList> {
     // setState(() {
     //       tabList = widget.items;
     // });
-    tabList = widget.items;
     _scrollController.addListener(() {
       if (_scrollController.position.pixels ==
           _scrollController.position.maxScrollExtent) {
@@ -188,6 +187,7 @@ class _CardListState extends State<CardList> {
 
   @override
   Widget build(BuildContext context) {
+    tabList = widget.items;
     return (tabList == null)
         ? Text("Loading...")
         : (tabList.length == 0
