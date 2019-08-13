@@ -2,12 +2,19 @@ import 'package:flutter/material.dart';
 import '../model/Video.dart';
 import '../components/CustomExpansionTitle.dart';
 import './singleCollectionAdderModal.dart';
+import '../pages/PopUpMenu.dart';
 
 class PersonalPage extends StatelessWidget {
   static const builtInAvatar = {
     "History": Icon(Icons.headset_mic),
     "Downloaded": Icon(Icons.cloud_download),
     "Watch Later": Icon(Icons.watch_later)
+  };
+
+  Map<String, Function> options = {
+    "Delete Collections": () {
+      // TODO Figure out the detele mode
+    }
   };
 
   final Map<String, List<Video>> builtIn;
@@ -76,11 +83,9 @@ class PersonalPage extends StatelessWidget {
                       color: Colors.black,
                     ),
                     onTap: () => onPressCollectionAdder(context)),
-                GestureDetector(
-                    child: Icon(
-                  Icons.more_vert,
-                  color: Colors.black,
-                ))
+                PopUpMenu(
+                  options: options,
+                )
               ],
             ),
             children: <Widget>[

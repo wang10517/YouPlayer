@@ -30,7 +30,9 @@ class _CollectionAdderState extends State<CollectionAdder> {
     }
 
     if (_validate) {
-      // widget.adder(_collectionController.text);
+      print('Enter validateing');
+      widget.adder(_collectionController.text);
+      print('here?');
       Navigator.of(context).pop();
     } else {
       return;

@@ -53,12 +53,8 @@ class _ControllerState extends State<Controller> {
   }
 
   // Recommendation related fields
-  LinkedHashMap<String, String> categoryId = LinkedHashMap.of({
-    "10": "Music",
-    "27": "Videoblogging",
-    "21": "Documentary",
-    "28": "Science"
-  });
+  LinkedHashMap<String, String> categoryId = LinkedHashMap.of(
+      {"10": "Music", "23": "Comdey", "24": "Entertainment", "28": "Science"});
 
   // Personal library related fields
   Map<String, List<Video>> builtIn = {
@@ -71,6 +67,7 @@ class _ControllerState extends State<Controller> {
 
   void _addCollection(String name) {
     setState(() {
+      print('propagating back');
       _userDefined[name] = [];
     });
   }
@@ -128,6 +125,10 @@ class _ControllerState extends State<Controller> {
       PersonalPage(
         builtIn: builtIn,
         personal: _userDefined,
+        addCollection: _addCollection,
+        addVideosToExistingCollection: _addVideosToExistingCollection,
+        addVideosToNewCollections: _addVideosToNewCollection,
+        deleteCollections: _deleteCollections,
       ),
       SettingsPage(),
     ];

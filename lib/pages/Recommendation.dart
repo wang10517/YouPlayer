@@ -23,6 +23,7 @@ class _RecommendationPageState extends State<RecommendationPage> {
   @override
   void initState() {
     super.initState();
+    print("Recommendation page rebuilt");
     widget.categoryId.keys.forEach((key) {
       fetchTrendingVideos(key);
     });
