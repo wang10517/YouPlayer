@@ -3,18 +3,14 @@ import '../model/Video.dart';
 import '../components/CustomExpansionTitle.dart';
 import './singleCollectionAdderModal.dart';
 import '../pages/PopUpMenu.dart';
+import '../components/SearchBar.dart';
+import '../components/confirmBar.dart';
 
-class PersonalPage extends StatelessWidget {
+class PersonalPage extends StatefulWidget {
   static const builtInAvatar = {
     "History": Icon(Icons.headset_mic),
     "Downloaded": Icon(Icons.cloud_download),
     "Watch Later": Icon(Icons.watch_later)
-  };
-
-  Map<String, Function> options = {
-    "Delete Collections": () {
-      // TODO Figure out the detele mode
-    }
   };
 
   final Map<String, List<Video>> builtIn;
@@ -36,15 +32,61 @@ class PersonalPage extends StatelessWidget {
       Key key})
       : super(key: key);
 
+  @override
+  _PersonalPageState createState() => _PersonalPageState();
+}
+
+class _PersonalPageState extends State<PersonalPage> {
+  bool _deleteMode = false;
+  List<String> selected_collecs = [];
+
+  void onCancel() {
+    setState(() {
+      _deleteMode = false;
+    });
+  }
+
+  void onConfirm() {
+    widget.deleteCollections(selected_collecs);
+    setState(() {
+      _deleteMode = false;
+      selected_collecs = [];
+    });
+  }
+
   Widget _buildCollection(String title, List<Video> videos, Widget leading,
-      {Widget trailing}) {
-    return ListTile(
-      key: Key(title),
-      leading: leading,
-      title: Text(title),
-      subtitle: Text("You have ${videos.length} in this collection"),
-      trailing: trailing,
-    );
+      {Widget trailing, bool deleteMode, bool selected}) {
+    return GestureDetector(
+        child: ListTile(
+          key: Key(title),
+          leading: deleteMode
+              ? (selected
+                  ? Icon(
+                      Icons.check_circle,
+                      color: Colors.green,
+                    )
+                  : Icon(
+                      Icons.check_circle_outline,
+                      color: Colors.grey,
+                    ))
+              : leading,
+          title: Text(title),
+          subtitle: Text("You have ${videos.length} in this collection"),
+          trailing: trailing,
+        ),
+        onTap: deleteMode
+            ? () {
+                if (selected) {
+                  setState(() {
+                    selected_collecs.remove(title);
+                  });
+                } else {
+                  setState(() {
+                    selected_collecs.add(title);
+                  });
+                }
+              }
+            : null);
   }
 
   void onPressCollectionAdder(BuildContext context) {
@@ -52,24 +94,32 @@ class PersonalPage extends StatelessWidget {
         context: context,
         builder: (BuildContext context) {
           return CollectionAdder(
-            adder: addCollection,
-            existingNames: personal.keys.toList(),
+            adder: widget.addCollection,
+            existingNames: widget.personal.keys.toList(),
           );
         });
   }
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    Map<String, Function> options = {
+      "Delete Collections": () => setState(() {
+            _deleteMode = true;
+          })
+    };
+
+    var scrollView = SingleChildScrollView(
       child: Column(
         children: <Widget>[
-          ...builtIn.keys
+          ...widget.builtIn.keys
               .map((name) => _buildCollection(
-                  name, builtIn[name], builtInAvatar[name],
-                  trailing: Icon(Icons.keyboard_arrow_right)))
+                  name, widget.builtIn[name], PersonalPage.builtInAvatar[name],
+                  trailing: Icon(Icons.keyboard_arrow_right),
+                  selected: false,
+                  deleteMode: false))
               .toList(),
           CustomExpansionTile(
-            title: "Personal Collection (${personal.keys.length})",
+            title: "Personal Collection (${widget.personal.keys.length})",
             background: Theme.of(context).accentColor,
             background_exp: Theme.of(context).accentColor,
             header: Colors.black,
@@ -89,16 +139,18 @@ class PersonalPage extends StatelessWidget {
               ],
             ),
             children: <Widget>[
-              ...personal.keys
+              ...widget.personal.keys
                   .map((name) => _buildCollection(
                       name,
-                      personal[name],
-                      personal[name].length == 0
+                      widget.personal[name],
+                      widget.personal[name].length == 0
                           ? Icon(Icons.play_circle_filled)
                           : Image.network(
-                              "http://img.youtube.com/vi/${personal[name][personal[name].length - 1].id}/mqdefault.jpg",
+                              "http://img.youtube.com/vi/${widget.personal[name][widget.personal[name].length - 1].id}/mqdefault.jpg",
                               fit: BoxFit.fill,
-                            )))
+                            ),
+                      deleteMode: _deleteMode,
+                      selected: selected_collecs.contains(name)))
                   .toList()
             ],
           ),
@@ -107,6 +159,19 @@ class PersonalPage extends StatelessWidget {
           )
         ],
       ),
+    );
+
+    return Scaffold(
+      appBar: PreferredSize(
+        child: _deleteMode
+            ? ConfirmBar(
+                onCancel: onCancel,
+                onConfirm: onConfirm,
+              )
+            : SearchBar(),
+        preferredSize: Size.fromHeight(50),
+      ),
+      body: scrollView,
     );
   }
 }

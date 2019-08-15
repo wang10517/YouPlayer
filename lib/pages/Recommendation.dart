@@ -7,6 +7,7 @@ import 'dart:convert' as convert;
 import '../credentials/YoutubeAPI.dart' as Keys;
 import '../model/Video.dart';
 import '../templates/CardList.dart';
+import '../components/SearchBar.dart';
 
 class RecommendationPage extends StatefulWidget {
   final LinkedHashMap<String, String> categoryId;
@@ -81,24 +82,30 @@ class _RecommendationPageState extends State<RecommendationPage> {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: widget.categoryId.length,
-      child: Scaffold(
-        appBar: AppBar(
-          elevation: 0,
-          backgroundColor: Theme.of(context).accentColor,
-          bottom: PreferredSize(
-            child: TabBar(
-              isScrollable: true,
-              unselectedLabelColor: Theme.of(context).accentColor,
-              indicatorColor: Theme.of(context).primaryColor,
-              tabs: parseTabs(context),
+    return Scaffold(
+      appBar: PreferredSize(
+        child: SearchBar(),
+        preferredSize: Size.fromHeight(50),
+      ),
+      body: DefaultTabController(
+        length: widget.categoryId.length,
+        child: Scaffold(
+          appBar: AppBar(
+            elevation: 0,
+            backgroundColor: Theme.of(context).accentColor,
+            bottom: PreferredSize(
+              child: TabBar(
+                isScrollable: true,
+                unselectedLabelColor: Theme.of(context).accentColor,
+                indicatorColor: Theme.of(context).primaryColor,
+                tabs: parseTabs(context),
+              ),
+              preferredSize: Size.fromHeight(0),
             ),
-            preferredSize: Size.fromHeight(0),
           ),
-        ),
-        body: TabBarView(
-          children: parseTabView(),
+          body: TabBarView(
+            children: parseTabView(),
+          ),
         ),
       ),
     );

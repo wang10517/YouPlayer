@@ -11,10 +11,8 @@ class PopUpMenu extends StatelessWidget {
       itemBuilder: (context) {
         List<PopupMenuEntry<Object>> entries = options.keys
             .map((title) => PopupMenuItem(
-                  child: GestureDetector(
-                    child: Text(title),
-                    onTap: options[title],
-                  ),
+                  child: Text(title),
+                  value: title,
                 ))
             .toList();
         return entries;
@@ -23,6 +21,7 @@ class PopUpMenu extends StatelessWidget {
         Icons.more_vert,
         color: Colors.black,
       ),
+      onSelected: (value) => options[value](),
     );
   }
 }

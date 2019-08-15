@@ -15,42 +15,7 @@ class Controller extends StatefulWidget {
 
 class _ControllerState extends State<Controller> {
   // Search Bar related fields
-  final TextEditingController _filter = new TextEditingController();
-  String _searchText = "";
-  Icon _searchIcon = new Icon(Icons.search);
-  Widget _appBarTitle = new Text('YouPlayer');
   int _curIndex = 0;
-
-  AppBar _buildAppBar(BuildContext context) {
-    return new AppBar(
-      title: _appBarTitle,
-      leading: new IconButton(
-        icon: _searchIcon,
-        onPressed: _searchPressed,
-      ),
-    );
-  }
-
-  void _searchPressed() {
-    setState(() {
-      if (this._searchIcon.icon == Icons.search) {
-        this._searchIcon = new Icon(Icons.close);
-        this._appBarTitle = new TextField(
-          controller: _filter,
-          decoration: new InputDecoration(
-            hintText: 'Search...',
-            hintStyle: Theme.of(context).textTheme.title,
-            contentPadding: EdgeInsets.all(0),
-          ),
-          style: Theme.of(context).textTheme.title,
-        );
-      } else {
-        this._searchIcon = new Icon(Icons.search);
-        this._appBarTitle = new Text('YouPlayer');
-        _filter.clear();
-      }
-    });
-  }
 
   // Recommendation related fields
   LinkedHashMap<String, String> categoryId = LinkedHashMap.of(
@@ -97,20 +62,6 @@ class _ControllerState extends State<Controller> {
     });
   }
 
-  _ControllerState() {
-    _filter.addListener(() {
-      if (_filter.text.isEmpty) {
-        setState(() {
-          _searchText = "";
-        });
-      } else {
-        setState(() {
-          _searchText = _filter.text;
-        });
-      }
-    });
-  }
-
   @override
   void initState() {
     super.initState();
@@ -134,7 +85,6 @@ class _ControllerState extends State<Controller> {
     ];
 
     return Scaffold(
-      appBar: _buildAppBar(context),
       body: _children[_curIndex],
       bottomNavigationBar: BottomNavigationBar(
         onTap: onTabTapped,
